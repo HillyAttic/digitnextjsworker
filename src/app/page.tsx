@@ -138,7 +138,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-32 px-4 mt-16">
+      <section className="bg-linear-to-r from-blue-600 to-indigo-700 text-white py-32 px-4 mt-16">
         <div className="container mx-auto max-w-6xl text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Grow Your Business Digitally</h1>
           <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto">
@@ -266,7 +266,7 @@ export default function Home() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="flex-grow px-6 py-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="grow px-6 py-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 required
               />
               <button
