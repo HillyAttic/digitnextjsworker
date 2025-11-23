@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Digital Growth Agency | Website Development & Marketing Services",
-  description: "We help businesses grow with website development, lead generation, SEO optimization, and social media marketing.",
+  title: "DigitGenie - Digital Growth Solutions That Deliver Results",
+  description: "We help businesses grow with expert website development, lead generation, SEO services, and social media management tailored to your unique goals.",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         {children}
       </body>
